@@ -3,7 +3,7 @@ import { Mail, Linkedin, Github, ExternalLink, Menu, X } from "lucide-react";
 import NavBar from "./components/NavBar";
 import About from "./pages/About";
 import Details from "./pages/Details";
-import Projects from "./pages/projects";
+import Projects from "./pages/Projects";
 import Achievement from "./pages/Achievement";
 import Footer from "./components/Footer";
 import Contact from "./pages/contact";
