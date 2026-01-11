@@ -1,11 +1,14 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,jsx}"
-  ],
+module.exports = {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        edu: ["'Edu NSW ACT Cursive'", "cursive"],
+        italianno: ["Italianno", "cursive"],
+        savate: ["Savate", "sans-serif"],
+      },
+    },
   },
   plugins: [],
-}
+};

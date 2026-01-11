@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import { Mail, Linkedin, Github, ExternalLink, Menu, X } from "lucide-react";
 import NavBar from "./components/NavBar";
-import About from "./pages/about";
+import About from "./pages/About";
+import Details from "./pages/Details";
 import Projects from "./pages/projects";
-import Skills from "./pages/Skills";
 import Achievement from "./pages/Achievement";
 import Footer from "./components/Footer";
+import Contact from "./pages/contact";
 
 export default function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -22,9 +23,10 @@ export default function App() {
         setMobileMenuOpen={setMobileMenuOpen}
       />
       <About />
+      <Details/>
       <Projects />
-      <Skills />
       <Achievement />
+      <Contact/>
       <Footer />
     </>
   );
